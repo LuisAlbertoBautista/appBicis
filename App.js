@@ -70,7 +70,7 @@ export default class extends React.Component {
               <View style={{flex:1,flexDirection:'row'}}>
                 <Text style={{flex:2}}>{valor}</Text>
                 <TouchableOpacity style={ {flex:1,margin:3,alignItems:'center',alignSelf:'center',padding: 15,width:100,backgroundColor:'#D42C42',borderRadius:3}} onPress={() => this.clean(i)}>
-                  <Text style={{color:'#ffff'}}>Borrar</Text>
+                  <Text style={{color:'#ffff'}}>Eliminar</Text>
                 </TouchableOpacity>
               </View>
             )}
